@@ -1,4 +1,4 @@
-export class ConfigStore  {
+export class ConfigStore {
 // Будут хранится API
 
 }
