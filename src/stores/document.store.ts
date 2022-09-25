@@ -28,8 +28,12 @@ export class DocumentStore {
         config
       );
       console.warn(response);
-    } catch (error) {
+    }
+    catch (error) {
       console.warn(error);
     }
   }
+
+
+
 }
