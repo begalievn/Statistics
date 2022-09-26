@@ -1,14 +1,14 @@
-import React, { useState } from 'react';
-import { Link } from "react-router-dom";
-import { MenuProps, Menu} from 'antd';
-import { BrowserRoute } from '../../../routes/browser.routes';
+import React, {useState} from 'react';
+import {Link} from "react-router-dom";
+import {MenuProps, Menu} from 'antd';
+import {BrowserRoute} from '../../../routes/browser.routes';
 
 
 const items: MenuProps['items'] = [
   {
     label: (
       <Link to={BrowserRoute.totalStats}>
-       Общая статистика
+        Общая статистика
       </Link>
     ),
     key: 'totalStats',
@@ -39,7 +39,7 @@ const items: MenuProps['items'] = [
   {
     label: (
       <Link to={BrowserRoute.byPriorityAreas}>
-       По приоритетным направлениям
+        По приоритетным направлениям
       </Link>
     ),
     key: 'byPriorityAreas',
@@ -47,7 +47,7 @@ const items: MenuProps['items'] = [
   {
     label: (
       <Link to={BrowserRoute.placeOfWork}>
-       С учетом места работы
+        С учетом места работы
       </Link>
     ),
     key: 'placeOfWork',
@@ -55,7 +55,7 @@ const items: MenuProps['items'] = [
   {
     label: (
       <Link to={BrowserRoute.byRegion}>
-       По регионам
+        По регионам
       </Link>
     ),
     key: 'byRegion',
