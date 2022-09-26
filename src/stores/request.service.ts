@@ -45,5 +45,6 @@ export class RequestService {
         const response = await this.text(options);
         const data: TResponse = JSON.parse(response);
         return data;
+
     }
 }
