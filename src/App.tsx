@@ -1,8 +1,8 @@
-import React, {FC} from 'react';
+import { FC } from 'react';
+import { useRoutes } from 'react-router-dom';
+import { appRoutesDefinition } from './views/routes';
 
-const App:FC = () => (
-  <div>
-  </div>
-);
-
-export {App};
+export const App: FC = () => {
+  const AppRoutes = useRoutes(appRoutesDefinition);
+  return AppRoutes;
+};
