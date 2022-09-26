@@ -24,7 +24,7 @@ export class DocumentStore {
         },
       };
       const response = await axios.get(
-        `https://api.opop.unionedev.ru/list/63284b21d786cc50bd7106f7`,
+        `https://api.ep.unionedev.ru/list/632c1caff7f0bfafc8f3bf09`,
         config
       );
       console.warn(response);
