@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { Link } from "react-router-dom";
-import { AppstoreOutlined, MailOutlined, SettingOutlined } from '@ant-design/icons';
 import { MenuProps, Menu} from 'antd';
 import { BrowserRoute } from '../../../routes/browser.routes';
 
@@ -67,7 +66,6 @@ export const Navbar: React.FC = () => {
   const [current, setCurrent] = useState('mail');
 
   const onClick: MenuProps['onClick'] = e => {
-    console.log('click ', e);
     setCurrent(e.key);
   };
 

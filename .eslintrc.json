@@ -101,9 +101,8 @@
       "never"
     ],
     "arrow-body-style": [
-      "warn"
-      // "error",
-      // "as-needed"
+      "error",
+      "as-needed"
     ],
     "array-bracket-spacing": [
       "error"
