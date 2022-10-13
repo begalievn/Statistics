@@ -1,5 +1,3 @@
 import React, { FC } from "react";
 
-export const NotFound: FC = () => {
-  return <div>Страница не найдена</div>;
-};
+export const NotFound: FC = () => <div>Страница не найдена</div>;
